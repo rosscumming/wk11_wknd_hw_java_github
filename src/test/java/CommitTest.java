@@ -13,8 +13,13 @@ public class CommitTest {
     }
 
     @Test
-    public void canGetCommitDescription(){
+    public void canGetDescription(){
         assertEquals("I've commited :)", commit.getDescription());
+    }
+
+    @Test
+    public void canGetUniqueId(){
+        assertEquals(1, commit.getUniqueId());
     }
 
 }
