@@ -13,13 +13,19 @@ public class CommitTest {
     }
 
     @Test
-    public void canGetDescription(){
+    public void canGetCommitDescription(){
         assertEquals("I've committed :)", commit.getDescription());
     }
 
     @Test
-    public void canGetUniqueId(){
+    public void canGetUniqueId() {
         assertEquals(1, commit.getUniqueId());
+    }
+
+    @Test
+    public void canAddCommitToRepository(){
+        commit.addCommitToRepository(commit);
+        assertEquals(1, commit.commitCount());
     }
 
 

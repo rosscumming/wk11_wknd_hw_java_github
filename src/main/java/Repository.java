@@ -6,16 +6,22 @@ public class Repository {
     private String description;
     private String repositoryType;
     private ArrayList<Commit> commits;
+    private ArrayList<Repository> repositories;
 
-    public Repository(){
-        commits = new ArrayList<Commit>();
+    public Repository(String name, String description, String repositoryType){
+        this.name = name;
+        this.description = description;
+        this.repositoryType = repositoryType;
+        this.commits = new ArrayList<Commit>();
+        this.repositories = new ArrayList<Repository>();
     }
 
     public int repositoryCount(){
-        return this.commits.size();
+        return this.repositories.size();
     }
 
-    public void addCommitToRepository(Commit commit){
-        this.commits.add(commit);
+    public void addRepositoryToCollection(Repository repository){
+        this.repositories.add(repository);
     }
+
 }
