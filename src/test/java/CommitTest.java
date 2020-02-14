@@ -9,17 +9,18 @@ public class CommitTest {
 
     @Before
     public void before(){
-        commit = new Commit("I've commited :)", 1);
+        commit = new Commit("I've committed :)", 1);
     }
 
     @Test
     public void canGetDescription(){
-        assertEquals("I've commited :)", commit.getDescription());
+        assertEquals("I've committed :)", commit.getDescription());
     }
 
     @Test
     public void canGetUniqueId(){
         assertEquals(1, commit.getUniqueId());
     }
+
 
 }

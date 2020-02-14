@@ -14,4 +14,8 @@ public class Repository {
     public int repositoryCount(){
         return this.commits.size();
     }
+
+    public void addCommitToRepository(Commit commit){
+        this.commits.add(commit);
+    }
 }
