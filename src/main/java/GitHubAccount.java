@@ -27,4 +27,19 @@ public class GitHubAccount {
     }
 
 
+    public void downgradeAcc(GitHubAccount gitHubAccount2) {
+        if (this.accountType == "Pro"){
+            this.accountType = "Free";
+        } else {
+            this.accountType = "Pro";
+        }
+    }
+
+    public void upgradeAcc(GitHubAccount gitHubAccount1) {
+        if (this.accountType == "Free"){
+            this.accountType = "Pro";
+        } else {
+            this.accountType = "Free";
+        }
+    }
 }
