@@ -1,18 +1,20 @@
+
 import java.util.ArrayList;
 
 public class Commit {
 
     private String description;
     private int uniqueId;
-    private ArrayList<Repository> repositories;
     private ArrayList<Commit> commits;
+
 
 
     public Commit(String description, int uniqueId) {
         this.description = description;
         this.uniqueId = uniqueId;
         this.commits = new ArrayList<Commit>();
-        this.repositories = new ArrayList<Repository>();
+
+
     }
 
     public String getDescription() {
@@ -27,7 +29,9 @@ public class Commit {
         return this.commits.size();
     }
 
-    public void addCommitToRepository(Commit commit){
+    public void addCommit(Commit commit){
         this.commits.add(commit);
     }
+
+
 }

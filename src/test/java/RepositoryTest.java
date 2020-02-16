@@ -10,7 +10,7 @@ public class RepositoryTest {
 
     private Repository repository1;
     private Repository repository2;
-    private Commit commit;
+    private Commit commit1;
     private Commit commit2;
 
 
@@ -18,7 +18,7 @@ public class RepositoryTest {
     public void before(){
         this.repository1 = new Repository("my first repo", "an upload to github, wow", "public");
         this.repository2 = new Repository("my second repo", "another upload to github, yay", "private");
-        this.commit = new Commit("I've committed", 1);
+        this.commit1 = new Commit("I've committed", 1);
         this.commit2 = new Commit("I've committed again!", 2);
 
     }
@@ -39,6 +39,21 @@ public class RepositoryTest {
     public void canGetRepositoryByName(){
         repository2.addRepositoryToCollection(repository2);
         assertEquals("my second repo", repository2.getRepoByName());
+    }
+
+
+
+    @Test
+    public void getCommitsInRepository(){
+        repository1.addCommitToRepository(repository1, commit1);
+        repository1.addCommitToRepository(repository1, commit2);
+        assertEquals(1, repository1.getCommitsInRepositoryCount());
+    }
+
+    @Test
+    public void canAddCommitToRepository(){
+        repository1.addCommitToRepository(repository1, commit1);
+        assertEquals(1, repository1.repositoryCount());
     }
 
 

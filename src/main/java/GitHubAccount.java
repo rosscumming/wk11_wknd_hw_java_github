@@ -42,4 +42,8 @@ public class GitHubAccount {
             this.accountType = "Free";
         }
     }
+
+    public int getCommitsInRepositoryCount(){
+        return this.repositories.size();
+    }
 }
