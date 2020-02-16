@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+
 
 public class Repository {
 
@@ -6,14 +8,14 @@ public class Repository {
     private String description;
     private String repositoryType;
     private ArrayList<Commit> commits;
-    private ArrayList<Repository> repositories;
+    private HashMap <String,Repository> repositories;
 
     public Repository(String name, String description, String repositoryType){
         this.name = name;
         this.description = description;
         this.repositoryType = repositoryType;
         this.commits = new ArrayList<Commit>();
-        this.repositories = new ArrayList<Repository>();
+        this.repositories = new HashMap<String, Repository>();
     }
 
     public int repositoryCount(){
@@ -21,7 +23,21 @@ public class Repository {
     }
 
     public void addRepositoryToCollection(Repository repository){
-        this.repositories.add(repository);
+        this.repositories.put(this.name ,repository);
+    }
+
+    public String getRepoByName() {
+
+        String keyToBeChecked = this.name;
+
+        for(String key : repositories.keySet()){
+            if (key.contains(keyToBeChecked)){
+                return keyToBeChecked;
+            } else {
+                return key;
+            }
+        }
+        return null;
     }
 
 }

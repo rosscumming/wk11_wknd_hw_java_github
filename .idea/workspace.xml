@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="74db4f4c-bfc2-4e6c-b6a2-9b92a39e32ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GitHubAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GitHubAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GitHubAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GitHubAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/GitHubAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GitHubAccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RepositoryTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,41 +51,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.GitHubAccountTest.canUpgradeAccountType">
-    <configuration name="CommitTest.canAddCommitToRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wknd_hw" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommitTest" />
-      <option name="METHOD_NAME" value="canAddCommitToRepository" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GitHubAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wknd_hw" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GitHubAccountTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RepositoryTest.canGetRepositoryByName">
     <configuration name="GitHubAccountTest.canDowngradeAccountType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wknd_hw" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GitHubAccountTest" />
       <option name="METHOD_NAME" value="canDowngradeAccountType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GitHubAccountTest.canGetUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wknd_hw" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GitHubAccountTest" />
-      <option name="METHOD_NAME" value="canGetUsername" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,13 +72,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wknd_hw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryTest.canAddRepositoryToCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wknd_hw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="canAddRepositoryToCollection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryTest.canGetRepositoryByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wknd_hw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="canGetRepositoryByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryTest.canGetRepositoryByName" />
+        <item itemvalue="JUnit.RepositoryTest.canAddRepositoryToCollection" />
+        <item itemvalue="JUnit.RepositoryTest" />
         <item itemvalue="JUnit.GitHubAccountTest.canUpgradeAccountType" />
         <item itemvalue="JUnit.GitHubAccountTest.canDowngradeAccountType" />
-        <item itemvalue="JUnit.GitHubAccountTest" />
-        <item itemvalue="JUnit.GitHubAccountTest.canGetUsername" />
-        <item itemvalue="JUnit.CommitTest.canAddCommitToRepository" />
       </list>
     </recent_temporary>
   </component>
@@ -127,26 +129,46 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="311" y="115" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1581680235141" />
+    <state x="100" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581864805454">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.877@0.23.1440.877" timestamp="1581864805454" />
     <state x="524" y="172" key="#com.intellij.ide.util.MemberChooser" timestamp="1581692253525">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="524" y="172" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1581692253525" />
-    <state width="1398" height="217" key="GridCell.Tab.0.bottom" timestamp="1581860680490">
+    <state width="1398" height="217" key="GridCell.Tab.0.bottom" timestamp="1581865169059">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581860680490" />
-    <state width="1398" height="217" key="GridCell.Tab.0.center" timestamp="1581860680489">
+    <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581865169059" />
+    <state width="1398" height="217" key="GridCell.Tab.0.center" timestamp="1581865169059">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581860680489" />
-    <state width="1398" height="217" key="GridCell.Tab.0.left" timestamp="1581860680489">
+    <state width="1398" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581865169059" />
+    <state width="1398" height="217" key="GridCell.Tab.0.left" timestamp="1581865169059">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581860680489" />
-    <state width="1398" height="217" key="GridCell.Tab.0.right" timestamp="1581860680489">
+    <state width="1398" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581865169059" />
+    <state width="1398" height="217" key="GridCell.Tab.0.right" timestamp="1581865169059">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581860680489" />
+    <state width="1398" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581865169059" />
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1581864327330">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581864327330" />
+    <state width="1398" height="285" key="GridCell.Tab.1.center" timestamp="1581864327330">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1581864327330" />
+    <state width="1398" height="285" key="GridCell.Tab.1.left" timestamp="1581864327330">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1581864327330" />
+    <state width="1398" height="285" key="GridCell.Tab.1.right" timestamp="1581864327330">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1581864327330" />
     <state x="221" y="100" key="SettingsEditor" timestamp="1581679832961">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
